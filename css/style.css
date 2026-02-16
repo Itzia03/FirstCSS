@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +7,126 @@
 }
 
 /* ------------------------------------ */
-/* WRITE YOUR CSS HERE :) */
-/* ------------------------------------ */
+header{
+    background: #1a2a3a;
+    padding: 50px 0 50px;
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Orbitron';
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.5px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    background: #f4f7f6;
+    color: #374f65;
+    line-height: 1.6;
+}
+
+header p{
+    margin-top: 20px;
+    color: #a8c1dd;
+    font-size: 15px;
+}
+
+.container {
+    width: min(980px, 92%);
+    margin: 0 auto;
+}
+
+nav {
+    background: #343a40;
+    border-top:15px solid #f4f7f6;
+    font-family: 'Roboto';
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 12px 0;
+}
+nav a{
+    color: #a8c1dd;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+nav a:hover {
+    color:#fff;
+    text-decoration: underline;
+    background: #0056b3;
+    padding: 6px 14px;
+    border-radius: 6px;
+}
+
+main {padding: 45px 0 60px; text-align: justify;}
+section {margin-bottom: 44px;}
+
+section h2 {
+    font-family: 'Orbitron';
+    font-size: 28px;
+    color: #34495d;
+    margin-bottom: 17px;
+    padding-bottom: 17px;
+    border-bottom: 3px solid #007aff;
+    display: block;
+}
+
+.highlight {
+    margin-top: 16px;
+    background: #e6f7ff;
+    border-left: 6px solid #007aff;
+    padding: 12px 14px;
+    font-style: italic;
+    color: #2d3b45;
+}
+
+.tool-card{
+    background: #ffffff;
+    border: 1px solid #d4d9de;
+    border-radius: 8px;
+    padding: 35px 20px;
+    margin: 20px 0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+.tool-card h3 {
+    color: #22a34d;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.tool-card p{
+    color: #7692b6;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 18px 10px;
+    text-align: left;
+}
+
+thead {
+    background: #007bff;
+    color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: #e9ecef;
+}
+
+tbody tr:hover {
+    background-color: #cce5ff;
+    cursor: pointer;
+}
+
+footer {font-size: 15px;}
